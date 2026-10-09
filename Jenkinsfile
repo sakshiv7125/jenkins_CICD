@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "YOUR_DOCKERHUB_USERNAME/jenkins-cicd"
+        IMAGE_NAME = "vorasakshii/jenkins-cicd"
         TAG = "${BUILD_NUMBER}"
     }
 
